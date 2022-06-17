@@ -2,16 +2,10 @@
 
 Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
 
-Your challenge is to build the back end for an e-commerce site. You’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
+This is back end for an e-commerce site. I took a working Express.js API and configured it to use Sequelize to interact with a MySQL database.
 
-Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
+Because this application won’t be deployed, I created a [walkthrough](coming soon) video that demonstrates its functionality and all of the following acceptance criteria being met.
 
-Refer to the Fullstack Blog Video Submission Guide (Links to an external site.) for additional guidance on creating a video.
-
-IMPORTANT
-Make sure to clone the starter code repository and make your own repository with the starter code. Do not fork the starter code repository!
-
-Before you start, clone the starter code (Links to an external site.).
 
 User Story
 AS A manager at an internet retail company
