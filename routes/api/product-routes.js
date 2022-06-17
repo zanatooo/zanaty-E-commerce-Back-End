@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   try {
-    const readerData = await Procuct.findAll({
+    const readerData = await Product.findAll({
       // Add Book as a second model to JOIN with
       include: [{ model: Tag,through:ProductTag},Category]
     });
@@ -23,7 +23,7 @@ router.get('/:id', (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
   try {
-    const readerData = await Procuct.findByPk(req.params.id,{
+    const readerData = await Product.findByPk(req.params.id,{
       // Add Book as a second model to JOIN with
       include: [{ model: Tag,through:ProductTag},Category]
     });
