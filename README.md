@@ -6,7 +6,7 @@ This is a back-end for an e-commerce site. I took a working Express.js API and c
 
 Because this application won’t be deployed, I created a [walkthrough video 1](https://watch.screencastify.com/v/YKgt8U8ZrWsMwmRvGWJo)
 
-[Walkthrough video 2] (https://watch.screencastify.com/v/p0SRxRB8zNhVGn2cW025) that demonstrates its functionality and all of the following acceptance criteria being met.
+[Walkthrough video 2](https://watch.screencastify.com/v/p0SRxRB8zNhVGn2cW025) that demonstrates its functionality and all of the following acceptance criteria being met.
 
 
 User Story
