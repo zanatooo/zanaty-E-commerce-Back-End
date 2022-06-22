@@ -4,13 +4,13 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 // The `/api/products` endpoint
 
 // get all products
-router.get('/', async(req, res) => {
+router.get('/', async (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   try {
     const readerData = await Product.findAll({
       // Add Book as a second model to JOIN with
-      include: [{ model: Tag,through:ProductTag},Category]
+      include: [{ model: Tag, through: ProductTag }, Category]
     });
     res.status(200).json(readerData);
   } catch (err) {
@@ -19,13 +19,13 @@ router.get('/', async(req, res) => {
 });
 
 // get one product
-router.get('/:id', async(req, res) => {
+router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
   try {
-    const readerData = await Product.findByPk(req.params.id,{
+    const readerData = await Product.findByPk(req.params.id, {
       // Add Book as a second model to JOIN with
-      include: [{ model: Tag,through:ProductTag},Category]
+      include: [{ model: Tag, through: ProductTag }, Category]
     });
     res.status(200).json(readerData);
   } catch (err) {
@@ -34,7 +34,7 @@ router.get('/:id', async(req, res) => {
 });
 
 // create new product
-router.post('/', async(req, res) => {
+router.post('/', async (req, res) => {
   /* req.body should look like this...
     {
       product_name: "Basketball",
@@ -66,7 +66,7 @@ router.post('/', async(req, res) => {
 });
 
 // update product
-router.put('/:id', async(req, res) => {
+router.put('/:id', async (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
@@ -107,7 +107,7 @@ router.put('/:id', async(req, res) => {
     });
 });
 
-router.delete('/:id', async(req, res) => {
+router.delete('/:id', async (req, res) => {
   // delete one product by its `id` value
   try {
     const readerData = await Tag.destroy({
