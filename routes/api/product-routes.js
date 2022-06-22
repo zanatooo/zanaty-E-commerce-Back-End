@@ -117,7 +117,7 @@ router.delete('/:id', async (req, res) => {
     });
 
     if (!readerData) {
-      res.status(404).json({ message: 'No tag found with that id!' });
+      res.status(404).json({ message: 'No product found with that id!' });
       return;
     }
 

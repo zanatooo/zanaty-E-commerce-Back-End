@@ -2,9 +2,11 @@
 
 Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
 
-This is back end for an e-commerce site. I took a working Express.js API and configured it to use Sequelize to interact with a MySQL database.
+This is a back-end for an e-commerce site. I took a working Express.js API and configured it to use Sequelize to interact with a MySQL database.
 
-Because this application won’t be deployed, I created a [walkthrough](coming soon) video that demonstrates its functionality and all of the following acceptance criteria being met.
+Because this application won’t be deployed, I created a [walkthrough video 1](https://watch.screencastify.com/v/YKgt8U8ZrWsMwmRvGWJo)
+
+[Walkthrough video 2] (https://watch.screencastify.com/v/p0SRxRB8zNhVGn2cW025) that demonstrates its functionality and all of the following acceptance criteria being met.
 
 
 User Story

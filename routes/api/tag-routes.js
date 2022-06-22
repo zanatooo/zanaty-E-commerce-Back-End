@@ -52,7 +52,7 @@ router.put('/:id', async(req, res) => {
     });
 
     if (!readerData) {
-      res.status(404).json({ message: 'No reader found with that id!' });
+      res.status(404).json({ message: 'No tag found with that id!' });
       return;
     }
 
