@@ -4,13 +4,13 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
 
 This is a back-end for an e-commerce site. I took a working Express.js API and configured it to use Sequelize to interact with a MySQL database.
 
-Because this application won’t be deployed, I created a [walkthrough video 1](https://watch.screencastify.com/v/YKgt8U8ZrWsMwmRvGWJo)
-
-[Walkthrough video 2](https://watch.screencastify.com/v/p0SRxRB8zNhVGn2cW025) that demonstrates its functionality and all of the following acceptance criteria being met.
+Because this application won’t be deployed, I created a [walkthrough video 1](https://watch.screencastify.com/v/YKgt8U8ZrWsMwmRvGWJo)and [Walkthrough video 2](https://watch.screencastify.com/v/p0SRxRB8zNhVGn2cW025) that demonstrates its functionality and all of the following acceptance criteria being met.
 
 
 User Story
-AS A manager at an internet retail company
+
+AS A manager at an internet retail company:
+
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 Acceptance Criteria
@@ -174,4 +174,7 @@ After creating the models and routes, run npm run seed to seed data to your data
 
 Sync Sequelize to the Database on Server Start
 Create the code needed in server.js to sync the Sequelize models to the MySQL database on server start.
+
+Developer:
+Mohammed Elzanaty
 
